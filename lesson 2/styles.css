@@ -1,0 +1,25 @@
+h1 {
+    background: red;
+    font-size: 48px;
+}
+
+.Paragraph-1 {
+    font-family: Courier;
+}
+
+.My_fat_text {
+    font-weight: bold;
+    display: block;
+}
+
+.Paragraph-2 {
+    border: blue solid 5px;
+    /* margin: 50px; */
+    padding: 25px;
+    font-family: Arial;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 50px;
+}
