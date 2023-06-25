@@ -23,3 +23,10 @@ h1 {
     margin-right: 100px;
     border-radius: 50px;
 }
+
+.Paragraph-3 {
+    font-style: italic;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: green 2px 3px 4px;
+}
