@@ -9,17 +9,56 @@
 <body>
     <h1 class="display-1">Page 1</h1>
     <a class="link-danger" target="_blank" href="page2.html">Link to the Page 2</a>
-    <div class="container text-center" style="max-width: 400px" >
+    <div class="container text-center" style="max-width: 500px" >
         <form>
             <label class="lead" for="pole1">Username:</label>
             <input class="form-control form-control-lg" id="pole1" type="text">
-             <label class="lead" for="pole2">Password:</label>
+            <label class="lead" for="pole2">Password:</label>
             <input class="form-control form-control-sm" id="pole2" type="password">
             <input class="form-check-input" type="checkbox">
             <input class="form-range" type="range">
             <input class="form-check-input" type="radio">
             <input class="btn btn-success" type="button" value="Click">
         </form>
+        <textarea class="form-control" rows="3"></textarea>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+    <a class="navbar-brand" href="#">Панель навигации</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Домой</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ссылка</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Список
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Действие</a></li>
+            <li><a class="dropdown-item" href="#">Другое действие</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Что-то другое</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Поиск</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
     </div>
 </body>
 </html>
